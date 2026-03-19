@@ -311,8 +311,8 @@ New Account
                         <th style={{ fontWeight: '300' }}>Description</th>
                         <th style={{ fontWeight: '300' }}>Category</th>
                         <th style={{ fontWeight: '300' }}>Amount</th>
-                        <th>Sender</th>
-                      <th>Sender Account</th>
+                        <th style={{ fontWeight: '300' }}>Sender</th>
+                      <th style={{ fontWeight: '300' }}>Sender Account</th>
 
                       </tr>
                     </thead>
