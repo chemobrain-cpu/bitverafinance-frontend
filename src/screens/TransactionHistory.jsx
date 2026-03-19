@@ -223,7 +223,7 @@ function TransactionHistory() {
               </div>
 
               <div className={styles.body}>
-                <table style={{ width: '600px' }} >
+                <table style={{ width: '700px' }} >
                   <thead>
                     <tr>
                       <th>Status</th>
