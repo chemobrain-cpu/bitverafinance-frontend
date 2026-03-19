@@ -311,8 +311,7 @@ New Account
                         <th style={{ fontWeight: '300' }}>Description</th>
                         <th style={{ fontWeight: '300' }}>Category</th>
                         <th style={{ fontWeight: '300' }}>Amount</th>
-                        <th style={{ fontWeight: '300' }}>Sender</th>
-                      <th style={{ fontWeight: '300' }}>Sender Account</th>
+                        
 
                       </tr>
                     </thead>
@@ -334,6 +333,8 @@ New Account
                           <td style={{ color: colorFun(data.transactionType) }}>
                             {formatTransaction(data.amount, data.transactionType)}
                           </td>
+
+                          
 
 
                           
