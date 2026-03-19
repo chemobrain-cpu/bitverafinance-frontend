@@ -231,6 +231,8 @@ function TransactionHistory() {
                       <th>Description</th>
                       <th>Category</th>
                       <th>Amount</th>
+                      <th>Sender</th>
+                      <th>Sender Account</th>
                       <th>Detail</th>
                     </tr>
                   </thead>
@@ -259,6 +261,16 @@ function TransactionHistory() {
                         <td style={{ color: colorFun(data.transactionType) }}>
                           ${Intl.NumberFormat().format(data.amount)}.00
                         </td>
+
+
+                        <td style={{ color: colorFun(data.transactionType) }}>
+                          {data.accountName}
+                        </td>
+
+                       <td style={{ color: colorFun(data.transactionType) }}>
+                          {data.accountNumber}
+                        </td>
+
                         <td
                           style={{ cursor: "pointer", textAlign: "center" }}
                           onClick={() => setReceiptData(data)}
