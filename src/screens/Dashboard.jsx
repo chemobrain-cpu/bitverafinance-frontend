@@ -303,7 +303,7 @@ New Account
                 </div>
 
                 <div className={styles.body}>
-                  <table>
+                  <table style={{width:'790px'}}>
                     <thead>
                       <tr>
                         <th style={{ fontWeight: '300' }}>Status</th>
