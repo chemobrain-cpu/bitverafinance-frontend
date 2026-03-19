@@ -337,13 +337,7 @@ New Account
 
 
                           
-                        <td style={{ color: colorFun(data.transactionType) }}>
-                          {data.accountName}
-                        </td>
-
-                       <td style={{ color: colorFun(data.transactionType) }}>
-                          {data.accountNumber}
-                        </td>
+                        
                         </tr>
                       ))}
                     </tbody>

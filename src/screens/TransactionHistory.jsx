@@ -263,13 +263,7 @@ function TransactionHistory() {
                         </td>
 
 
-                        <td style={{ color: colorFun(data.transactionType) }}>
-                          {data.accountName}
-                        </td>
-
-                       <td style={{ color: colorFun(data.transactionType) }}>
-                          {data.accountNumber}
-                        </td>
+                        
 
                         <td
                           style={{ cursor: "pointer", textAlign: "center" }}
